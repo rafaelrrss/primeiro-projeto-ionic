@@ -1,0 +1,17 @@
+
+.foto-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.foto-container ion-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.foto-container ion-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
