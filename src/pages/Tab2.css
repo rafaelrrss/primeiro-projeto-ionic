@@ -1,3 +1,42 @@
 .nome-contato {
   margin-bottom: 20px !important;
 }
+
+```css
+.nome-contato {
+  margin-bottom: 20px !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-contato {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.info-contato ion-icon {
+  font-size: 20px;
+  color: #3880ff;
+  min-width: 22px;
+}
+
+.info-contato strong {
+  margin-right: 3px;
+}
+
+.botoes-contato {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-top: 18px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.botoes-contato ion-button {
+  margin: 0;
+}
+```
